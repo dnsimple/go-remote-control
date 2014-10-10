@@ -16,7 +16,9 @@ SCRIPT_DIR="./scripts"
 SCRIPT_EXT="sh"
 ```
 
-Then run foreman:
+You will need an SSL certificate and key that correspond to the environment variables in the .env file.
+
+Run foreman:
 
 ```sh
 foreman run
