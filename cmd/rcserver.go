@@ -72,7 +72,7 @@ func makeMartini() *martini.ClassicMartini {
 	m.Get("/status", authorize, httpStatus)
 	m.Get("/stop", authorize, httpStop)
 	m.Get("/start", authorize, httpStart)
-        m.Get("/update", authorize, httpUpdate)
+	m.Get("/update", authorize, httpUpdate)
 
 	return m
 }

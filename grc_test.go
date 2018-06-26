@@ -33,8 +33,8 @@ func TestShellScripts(t *testing.T) {
 }
 
 func TestRubyScripts(t *testing.T) {
-        scriptsDir = "./test-scripts"
-        scriptExt = "rb"
+	scriptsDir = "./test-scripts"
+	scriptExt = "rb"
 
 	functions := map[string]func(io.Writer) error{
 		"status": RunStatus,
