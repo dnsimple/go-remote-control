@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/aetrion/go-remote-control"
-	"github.com/codegangsta/martini"
 	"log"
 	"net"
 	"net/http"
 	"os"
+
+	"github.com/codegangsta/martini"
+	"github.com/dnsimple/go-remote-control"
 )
 
 var (

@@ -3,6 +3,3 @@ test:
 
 test-integration:
 	go test -v ./...
-
-get-deps:
-	go get github.com/codegangsta/martini
