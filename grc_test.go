@@ -21,7 +21,7 @@ func TestShellScripts(t *testing.T) {
 		var w bytes.Buffer
 		err := function(&w)
 		if err != nil {
-			t.Errorf("Error executing %s: %s", function, err)
+			t.Errorf("Error executing %s: %s", name, err)
 		}
 
 		actual := w.String()
@@ -47,7 +47,7 @@ func TestRubyScripts(t *testing.T) {
 		var w bytes.Buffer
 		err := function(&w)
 		if err != nil {
-			t.Errorf("Error executing %s: %s", function, err)
+			t.Errorf("Error executing %s: %s", name, err)
 		}
 
 		actual := w.String()
